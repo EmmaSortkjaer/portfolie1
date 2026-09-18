@@ -14,8 +14,10 @@ nav:not(:first-of-type)
     flex-direction: row;
     justify-content: flex-end;
     background-color: rgb(134 192 239);
+    gap: 20px;
     padding: 10px 20px;
     background-image: linear-gradient(#e6f2fb, #86c0ef);
+
 
 
 }
@@ -24,9 +26,19 @@ nav button {
     font-family:"Helvetica";
     font-size: 15px;
     padding: 8px 16px;
-    background-color: white;
+    background-color: rgb(103 182 255);
+    border-block-style: groove;
+    font-weight: bold;
+
 
 }
+
+a:hover:not(:last-of-type) {
+    font-size: 3px;
+    padding: 2px 2px;
+    background-color: #0a4487;
+}
+
 body {
     color: black;
     min-height: 100vh;
@@ -70,25 +82,20 @@ margin-top: 1rem;
 }
 .kasse-container {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    width: 100%;
-    margin: 40px auto;
+    flex-direction: column;
+
 }
 
 .folkeskole {
     padding: 15px;
     font-size: 1.3rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
-    margin-left: 50px ;
-    margin-top: 2rem;
-
 
 }
 
@@ -96,15 +103,12 @@ margin-top: 1rem;
     padding: 15px;
     font-size: 1.3rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-    margin: 10px auto;
-    margin-right: 50px;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
-    margin-top: 2rem;
-
 }
 
 .linje {
@@ -123,13 +127,9 @@ margin-top: 1rem;
 }
 .kontainer {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    width: 100%;
-    margin: 40px auto;
+    flex-direction: column;
 
 }
-
 
 .arbejde {
     text-align: center;
@@ -140,13 +140,11 @@ margin-top: 1rem;
     padding: 15px;
     font-size: 1.3rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-    margin: 10px auto;
-    margin-right: 50px;
-    margin-top: 2rem ;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
 }
 
@@ -154,26 +152,28 @@ margin-top: 1rem;
     padding: 15px;
     font-size: 1.3rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-    margin: 10px auto;
-    margin-right: 50px;
-    margin-top: 2rem;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
+}
+
+.pro {
+    text-align: center;
+    font-size: 3rem;
 }
 
 .projekter {
-    padding: 10px;
+    padding: 15px;
     font-size: 1.3rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
-    margin-left: 50px ;
-
 }
+
