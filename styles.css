@@ -18,8 +18,6 @@ nav:not(:first-of-type)
     padding: 10px 20px;
     background-image: linear-gradient(#e6f2fb, #86c0ef);
 
-
-
 }
 
 nav button {
@@ -29,7 +27,6 @@ nav button {
     background-color: rgb(103 182 255);
     border-block-style: groove;
     font-weight: bold;
-
 
 }
 
@@ -47,23 +44,74 @@ body {
     margin: 0px;
     background-image: linear-gradient(#e6f2fb);
     font-family: 'Inter', sans-serif;
-    @import url('https://googleapis.com');
 }
 
 main {
     padding-left: 20px;
     border: none;
 
-
 }
 
+.billeder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+}
 
-img {
+.student {
     display: block;
     margin-top: 10px;
-    width: 15%;
+    width: 35%;
+
 }
 
+.ec{
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+.bryllup {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.eleven-to {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.eleven-et {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.forårskoncert {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+.århus-et {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.århus-to {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.århus-tre {
+    display: block;
+    margin-top: 1%;
+    width: 35%;
+}
 .mig {
     padding: 15px;
     font-size: 1.3rem;
@@ -227,4 +275,50 @@ margin-top: 1rem;
     max-width: 1000px;
     margin: 2rem auto;
     font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    nav:not(:first-of-type) {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    nav button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .billeder{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .student, .ec, .bryllup, .eleven-to, .eleven-et, .forårskoncert, .århus-et, .århus-to, .århus-tre {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+
+    .mig, .folkeskole, .gymnasium, .bakken, .cph, .projekter, .børnehave, .landmand, .tækker, .lærer {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+
+    .linje {
+        margin-top: 4rem;
+
+    }
 }
