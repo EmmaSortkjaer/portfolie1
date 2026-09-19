@@ -33,7 +33,7 @@ nav button {
 
 }
 
-a:hover:not(:last-of-type) {
+a:hover:not(:first-of-type):not(last-of-type) {
     font-size: 3px;
     padding: 2px 2px;
     background-color: #0a4487;
@@ -80,7 +80,7 @@ margin-top: 1rem;
     text-align: center;
     font-size: 3rem;
 }
-.kasse-container {
+.kasse-skole {
     display: flex;
     flex-direction: column;
 
@@ -125,7 +125,7 @@ margin-top: 1rem;
     padding: 2px 12px;
     background-color: #86c0ef;
 }
-.kontainer {
+.kasse-arbejde {
     display: flex;
     flex-direction: column;
 
@@ -176,4 +176,55 @@ margin-top: 1rem;
     margin: 2rem auto;
     font-family: 'Inter', sans-serif;
 }
+.prak {
+    text-align: center;
+    font-size: 3rem;
+}
 
+.børnehave {
+      padding: 15px;
+      font-size: 1.3rem;
+      background-color: rgb(139 197 255);
+      width: 800px;
+      border-block-style: groove;
+      border-radius: 8px;
+      max-width: 1000px;
+      margin: 2rem auto;
+      font-family: 'Inter', sans-serif;
+  }
+
+.landmand {
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: rgb(139 197 255);
+    width: 800px;
+    border-block-style: groove;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.tækker {
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: rgb(139 197 255);
+    width: 800px;
+    border-block-style: groove;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.lærer {
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: rgb(139 197 255);
+    width: 800px;
+    border-block-style: groove;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    font-family: 'Inter', sans-serif;
+}
