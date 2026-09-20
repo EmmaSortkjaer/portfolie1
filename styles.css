@@ -41,8 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    background-color: #f3f8fc;
-    color: black;
+    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
 }
 
@@ -60,13 +59,13 @@ main {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 1.6rem 0.8rem rgba(0, 0, 0, 0.08);
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
     box-sizing: border-box;
 }
 
 .velkommen h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-top: 0;
 }
 
@@ -100,7 +99,8 @@ figcaption {
 .student {
     display: block;
     margin-top: 10px;
-    width: 30%;
+    width: 35%;
+    border-style: groove;
 
 }
 
@@ -108,46 +108,62 @@ figcaption {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 .bryllup {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 
 .eleven-to {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 
 .eleven-et {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 
 .forårskoncert {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 .århus-et {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 
 .århus-to {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 
 .århus-tre {
     display: block;
     margin-top: 5%;
     width: 35%;
+    border-style: groove;
+
 }
 .mig {
     padding: 15px;
