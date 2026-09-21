@@ -165,15 +165,28 @@ figcaption {
     border-style: groove;
 
 }
-.mig {
+
+.introduktion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.kasse-introduktion {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-tekst {
     padding: 15px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     background-color: rgb(139 197 255);
-    width: 750px;
+    width: 800px;
     border-block-style: groove;
     border-radius: 8px;
     max-width: 1000px;
-margin-top: 1rem;
+    margin: 2rem auto;
     font-family: 'Inter', sans-serif;
 }
 
@@ -189,7 +202,7 @@ margin-top: 1rem;
 
 .folkeskole {
     padding: 15px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     background-color: rgb(139 197 255);
     width: 800px;
     border-block-style: groove;
@@ -202,7 +215,7 @@ margin-top: 1rem;
 
 .gymnasium  {
     padding: 15px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     background-color: rgb(139 197 255);
     width: 800px;
     border-block-style: groove;
